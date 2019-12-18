@@ -8,17 +8,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.dreamlin.colortextview.MultiColorTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:textSize="13sp"
-        app:colors="#FF8C00|#FF1493|#FFC0CB|"
-        app:defColor="#0D0D0D"
-        app:texts="最孤独是读评论区未署名情书|
-        像不小心掀开了时光的典故|
-        第十是睁开眼就已黄昏迟暮|
-        寒星三两落在远远处" />
+<com.dreamlin.colortextview.MultiColorTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:textSize="13sp"
+    app:colors="#FF8C00|#FF1493|#FFC0CB|"
+    app:defColor="#0D0D0D"
+    app:texts="最孤独是读评论区未署名情书|
+    像不小心掀开了时光的典故|
+    第十是睁开眼就已黄昏迟暮|
+    寒星三两落在远远处" />
 
     <com.dreamlin.colortextview.MultiColorTextView
         android:layout_width="wrap_content"
