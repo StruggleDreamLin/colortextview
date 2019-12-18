@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="13sp"
+        app:colors="#FF8C00|#FF1493|#FFC0CB|"
+        app:defColor="#0D0D0D"
+        app:texts="最孤独是读评论区未署名情书|
+        像不小心掀开了时光的典故|
+        第十是睁开眼就已黄昏迟暮|
+        寒星三两落在远远处" />
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="13sp"
+        app:colors="#912CEE=#76EE00=#97FFFF"
+        app:spilt="="
+        app:texts="第九是海蓝时见鲸 林深时见鹿=
+        却不见你 在梦醒之处=
+        第八是回家的路途绕了几次远路=
+        像电台的老情歌循环着音符" />
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="13sp"
+        app:colors="#FFD700|#FFB5C5|#BA55D3|#ADFF2F"
+        app:texts="第七是看一场一群人的演出|
+
+荧光满眼却看不清楚|
+
+第六是一个人吃饭 一个人写书|
+
+一个人拼岁月拼图" />
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:id="@+id/tv_set_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="13sp" />
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:id="@+id/tv_regex_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="第三是假装很成熟 假装很忙碌
+
+假装擅长一个人独处
+
+第二是穿过万家灯火无数
+
+却无一人等我在归途
+
+第一是收到远方一纸家书
+
+说照顾自己 累了别忍着不哭"
+        android:textSize="13sp" />
+
+    <com.dreamlin.colortextview.MultiColorTextView
+        android:id="@+id/tv_regex_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="13sp" />
+
+</LinearLayout>

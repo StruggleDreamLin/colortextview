@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiColorTextView">
+        <!--使用|分割-->
+        <attr name="texts" format="string"></attr>
+        <attr name="colors" format="string"></attr>
+        <attr name="defColor" format="color"></attr>
+        <attr name="spilt" format="string"></attr>
+    </declare-styleable>
+</resources>
