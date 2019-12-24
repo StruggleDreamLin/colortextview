@@ -4,12 +4,12 @@
 
 ## 引用
 
+该版本未引入AndroidX
 在gradle中引用:
 
 ```groovy
-implementation 'com.dreamlin.colortextview:colortextview:1.0.0'
+implementation 'com.dreamlin.colortextview:colortextview:0.0.9'
 ```
-
 
 
 ## 属性
