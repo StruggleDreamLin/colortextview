@@ -1,6 +1,6 @@
 # MultiColorTextView
 
-<img src="./images/color-text.jpg" style="zoom:80%;" />
+![](https://upload-images.jianshu.io/upload_images/6850504-cc7f6a36500455e8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 引用
 
